@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    background-color: rgb(16, 129, 105);
+  }
+  
+
+.MyBtn {
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    margin: 0px;
+    font-size: 50px;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+  .MyBtn:hover {
+    background: rgb(231, 191, 191);
+    transition: .4s all;
+  }
+  
+  .Board {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+  }
+  
+  .startNewBtnGame {
+    width: 200px;
+    height: 40px;
+    font-size: medium;
+    outline: none;
+    background:rgb(194, 123, 123);
+    cursor: pointer;
+    margin-bottom: 35px;
+  }
+  .startNewBtnGame:hover {
+    background: rgb(228, 160, 160);
+    transition: .4s all;
+  }
+  
+  .whoIsWin{
+    margin-top:25px;
+    width: 145px;
+    height: 20px;
+    font-size: 18px;
+    border:1px solid black;
+    padding: 3px;
+    background-color: rgb(194, 123, 123);
+  } 
+
+  .won{
+    margin-top:25px;
+    width: 105px;
+    height: 40px;
+    font-size: 18px;
+    border:1px solid black;
+    padding: 3px;
+    background-color: rgb(198, 216, 37);
+  } 
