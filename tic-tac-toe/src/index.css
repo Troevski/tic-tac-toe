@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: rgb(16, 129, 105);
+    background-color: rgb(31, 48, 44);
   }
   
 
@@ -63,10 +63,22 @@ body {
 
   .won{
     margin-top:25px;
-    width: 105px;
+    width: 115px;
     height: 40px;
     font-size: 18px;
     border:1px solid black;
     padding: 3px;
-    background-color: rgb(198, 216, 37);
+    background-color: rgb(19, 94, 22);
+    color: rgb(209, 207, 207);
   } 
+
+  .historyButton {
+    margin-bottom:25px;
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+    border:1px solid black;
+    padding: 3px;
+    background-color: rgb(133, 88, 22);
+    cursor: pointer;
+  }
